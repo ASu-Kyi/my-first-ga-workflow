@@ -19,5 +19,6 @@ jobs:
           Write-Output "Amigoscode"
           "Hello" | Out-File -FilePath file.txt
           Get-ChildItem
+          Get-Content file.txt
       - name: Sleep Step
-        run: sleep 20
+        run: sleep 5
