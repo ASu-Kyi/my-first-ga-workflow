@@ -22,3 +22,8 @@ jobs:
           Get-Content file.txt
       - name: Sleep Step
         run: sleep 5
+      - name: My First Action
+        uses: actions/checkout@v6
+      - name: ls repo
+        run: |
+          Get-ChildItem
