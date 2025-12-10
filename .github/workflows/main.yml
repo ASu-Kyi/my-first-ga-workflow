@@ -14,7 +14,7 @@ jobs:
         run: |
           Get-ChildItem Env:
 
-      - name: My Second Command
+      - name: My Second Step
         run: |
           Write-Output "Amigoscode"
           "Hello" | Out-File -FilePath file.txt
