@@ -11,7 +11,8 @@ jobs:
 
     steps:
       - name: My First Step
-        run: Get-ChildItem Env:
+        run: |
+          Get-ChildItem Env:
 
       - name: My Second Command
         run: |
